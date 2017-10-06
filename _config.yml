@@ -88,3 +88,7 @@ search:
   field: post
   format: html
   limit: 10000
+
+live2d:
+  model: wanko
+  bottom: -60
