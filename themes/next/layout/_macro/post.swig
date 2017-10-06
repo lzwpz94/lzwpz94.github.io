@@ -280,6 +280,13 @@
       {% endif %}
 
       {% if is_index %}
+	  	<!-- 首页添加文章摘要图片，文章中不显示该摘要图片 -->
+	    {% if post.summary_img  %}
+		  <div class="out-img-topic">
+		    <img src={{ post.summary_img }} class="img-topic">
+		  </div>
+		{% endif %}
+		<!-- 结束 -->
         {% if post.description and theme.excerpt_description %}
           {{ post.description }}
           <!--noindex-->
