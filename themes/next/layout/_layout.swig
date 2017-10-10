@@ -88,6 +88,7 @@
   {% include '_third-party/scroll-cookie.swig' %}
   {% include '_third-party/exturl.swig' %}
 
+  <embed style="position:fixed; left:0; bottom:0;" src="/videos/honehone_clock_tr.swf" width="160" height="70" wmode="transparent" />
   {{ live2d() }}
 </body>
 <!-- 页面点击小红心 -->
